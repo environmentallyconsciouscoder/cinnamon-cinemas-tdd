@@ -64,10 +64,10 @@ I will implement a queue data structure to manage seat requests, following the '
         "is_booked": true,
         },
         {
-        "is_booked": true,
+        "is_booked": false,
         },
         {
-        "is_booked": true,
+        "is_booked": false,
         }
         ]
     },
@@ -75,19 +75,19 @@ I will implement a queue data structure to manage seat requests, following the '
     full: false
     rowC:[
         {
-        "is_booked": true,
+        "is_booked": false,
         },
         {
-        "is_booked": true,
+        "is_booked": false,
         },
         {
-        "is_booked": true,
+        "is_booked": false,
         },
         {
-        "is_booked": true,
+        "is_booked": false,
         },
         {
-        "is_booked": true,
+        "is_booked": false,
         }
         ]
     }
