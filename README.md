@@ -28,3 +28,68 @@ Please ensure that you have Java and Maven installed on your computer. To run th
 ## Approaches
 
 I will implement a queue data structure to manage seat requests, following the 'first in, first out' (FIFO) principle to process requests in the order they are received. To store the seat status and associated user information, I will utilize a list of hash tables or hash maps. When a seat is occupied, its corresponding value will be set to 'true,' and if it remains unoccupied, it will be set to 'false.' Below is an example illustrating what the data structure looks like. 
+
+````
+[  
+    {
+    full: true
+    rowA: [
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        }
+        ]
+    },
+    {
+    full: false
+    rowB: [
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        }
+        ]
+    },
+    {
+    full: false
+    rowC:[
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        },
+        {
+        "is_booked": true,
+        }
+        ]
+    }
+]
+````
