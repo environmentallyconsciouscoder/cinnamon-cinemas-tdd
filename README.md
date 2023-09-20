@@ -17,9 +17,7 @@ I will implement a queue data structure to manage seat requests, following the '
 
 ````
 [  
-    {
-    full: true
-    rowA: [
+     [
         {
         "is_booked": true,
         },
@@ -35,11 +33,8 @@ I will implement a queue data structure to manage seat requests, following the '
         {
         "is_booked": true,
         }
-        ]
-    },
-    {
-    full: false
-    rowB: [
+    ],
+    [
         {
         "is_booked": true,
         },
@@ -55,11 +50,8 @@ I will implement a queue data structure to manage seat requests, following the '
         {
         "is_booked": false,
         }
-        ]
-    },
-    {
-    full: false
-    rowC:[
+     ],
+     [
         {
         "is_booked": false,
         },
