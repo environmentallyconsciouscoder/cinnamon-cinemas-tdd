@@ -10,20 +10,6 @@ There are a total of 15 seats available, with 5 seats in each row. There are thr
 
 Please ensure that you have Java and Maven installed on your computer. To run the unit tests, use the command 'mvn test'.
 
-## Test cases
-
-
-| Test Cases | Expections |
-|------------|:----------:|
-|            |            |
-|            |            |
-
-
-| Edge Cases | Expections |
-|------------|:----------:|
-|            |            |
-|            |            |
-|            |            |
 
 ## Approaches
 
